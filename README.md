@@ -97,8 +97,15 @@ jmeter-blazedemo-performance-testing
 │   └── index.html
 │
 └── README.md
+```
 
+| Test Type   | Users | Avg Response Time | Error % | Throughput |
+| ----------- | ----- | ----------------- | ------- | ---------- |
+| Load Test   | 100   | 4800 ms           | 0%      | 18 req/min |
+| Stress Test | 300   | 7200 ms           | 2%      | 35 req/min |
+| Spike Test  | 500   | 9500 ms           | 5%      | 50 req/min |
+
+```
 ## Author
-
 Rakshit Kohli
 QA Automation / Performance Testing Enthusiast
